@@ -67,7 +67,7 @@ nav .media {
   width: 3rem;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   nav .media .btn {
     width: 30vw;
     height: 50px;
@@ -144,7 +144,7 @@ nav .media {
   border-bottom: solid 3px #A30D2D;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .landing h1 {
     width: 60vw;
   }
@@ -155,7 +155,7 @@ nav .media {
   text-align: center;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .landing h2 {
     width: 80vw;
   }
@@ -176,7 +176,7 @@ nav .media {
   width: 40vw;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .landing .landing-width {
     width: 80vw;
   }
@@ -215,7 +215,7 @@ nav .media {
   padding: 20px;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .landing .agency {
     margin: 10px;
   }
@@ -268,7 +268,7 @@ nav .media {
   text-align: center;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .question h1 {
     width: 60vw;
   }
@@ -278,7 +278,7 @@ nav .media {
   margin: 2rem 0 2rem 0rem;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .question h5 {
     text-align: center;
   }
@@ -302,7 +302,7 @@ nav .media {
   margin: 50px;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .dan-works {
     height: 210vh;
     margin: 10px;
@@ -343,7 +343,7 @@ nav .media {
   border-radius: 5%;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .dan-works .upper .row {
     width: 60vw;
     position: relative;
@@ -371,13 +371,13 @@ nav .media {
   width: 300px;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .dan-works .mid .row .col {
     width: 50vw;
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .dan-works .mid .row {
     width: 60vw;
     position: relative;
@@ -401,13 +401,13 @@ nav .media {
   border-radius: 5%;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .dan-works .low .row .col {
     width: 50vw;
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .dan-works .low .row {
     width: 60vw;
     position: relative;
@@ -419,7 +419,7 @@ nav .media {
   width: 50vw;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .work h2 {
     width: 55vw;
     text-align: center;
@@ -461,13 +461,13 @@ nav .media {
   border-bottom: solid 1px #f4f4f4;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .work .packs .col h3 {
     width: 50vw;
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .work .packs .col {
     width: 50vw;
   }
@@ -485,7 +485,7 @@ nav .media {
   font-size: 20px;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .work .packs .inner ul {
     padding-left: 0;
   }
@@ -502,7 +502,7 @@ nav .media {
   font-size: 25px;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .work .packs .btn {
     width: 55vw;
     margin-bottom: 20px;
@@ -518,7 +518,7 @@ nav .media {
   left: 40%;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .work .packs .fa-chevron-down {
     width: 30vw;
     position: relative;
@@ -538,7 +538,7 @@ footer a {
   color: white;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   footer button {
     width: 85vw;
   }

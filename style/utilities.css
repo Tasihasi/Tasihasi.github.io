@@ -126,13 +126,13 @@
   padding: auto;
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 450px) {
   .disappear-400 {
     display: none;
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .display-400 {
     display: none;
   }

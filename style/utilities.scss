@@ -159,13 +159,13 @@ $yellow: #ffc107;
 }
 
 .disappear-400 {
-    @media screen and (min-width: 400px){
+    @media screen and (min-width: 450px){
         display: none;
     }
 }
 
 .display-400 {
-    @media screen and (max-width: 400px){
+    @media screen and (max-width: 450px){
         display: none;
     }
 }

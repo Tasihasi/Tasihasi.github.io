@@ -119,7 +119,7 @@ nav {
         width: 3rem;
 
         .btn{
-            @media screen and (max-width: 400px){
+            @media screen and (max-width: 450px){
                 width: 30vw;
                 height: 50px;
                 margin: 0 10px 0 0;
@@ -204,7 +204,7 @@ nav {
             
         }
 
-        @media screen and (max-width: 400px){
+        @media screen and (max-width: 450px){
             width: 60vw;
         }
     }
@@ -214,7 +214,7 @@ nav {
         width: 40vw;
         text-align: center;
 
-        @media screen and (max-width: 400px){
+        @media screen and (max-width: 450px){
             width: 80vw;
         }
 
@@ -232,7 +232,7 @@ nav {
     .landing-width {
         width: 40vw;
 
-        @media screen and (max-width: 400px){
+        @media screen and (max-width: 450px){
             width: 80vw;
         }
     }
@@ -280,7 +280,7 @@ nav {
         width: 95vw;
         margin: 20px 0 20px 20px;
         padding: 20px;
-        @media screen and (max-width: 400px){
+        @media screen and (max-width: 450px){
             margin: 10px
         }
 
@@ -332,14 +332,14 @@ nav {
         width: 350px;
         justify-content: center;
         text-align: center;
-        @media screen and (max-width: 400px){
+        @media screen and (max-width: 450px){
             width: 60vw;
         }
     }
 
     h5{
         margin: 2rem 0 2rem 0rem;
-        @media screen and (max-width: 400px){
+        @media screen and (max-width: 450px){
             text-align:center;
         }
     }
@@ -366,7 +366,7 @@ nav {
 .dan-works {
     height: 125vh;
     margin: 50px;
-    @media screen and (max-width: 400px){
+    @media screen and (max-width: 450px){
         height: 210vh;
         margin: 10px;
     }
@@ -410,7 +410,7 @@ nav {
             
             }
 
-            @media screen and (max-width: 400px){
+            @media screen and (max-width: 450px){
                 width: 60vw;
 
                 position: relative;
@@ -437,7 +437,7 @@ nav {
                                 width: 300px;
                             }
 
-                        @media screen and (max-width: 400px){
+                        @media screen and (max-width: 450px){
                             width: 50vw;
             
                             
@@ -445,7 +445,7 @@ nav {
                             }
         
                         }
-                        @media screen and (max-width: 400px){
+                        @media screen and (max-width: 450px){
                             width: 60vw;
             
                             position: relative;
@@ -470,13 +470,13 @@ nav {
 
                         border-radius: 5%;
                         
-                        @media screen and (max-width: 400px){
+                        @media screen and (max-width: 450px){
                             width: 50vw;
             
                             
                         }
                     }
-                    @media screen and (max-width: 400px){
+                    @media screen and (max-width: 450px){
                         width: 60vw;
         
                         position: relative;
@@ -497,7 +497,7 @@ nav {
         
     }
 
-    @media screen and (max-width: 400px){
+    @media screen and (max-width: 450px){
         h2{
             width: 55vw;
             text-align: center;
@@ -540,14 +540,14 @@ nav {
 
                 border-bottom: solid 1px #f4f4f4 ;
 
-                @media screen and (max-width: 400px){
+                @media screen and (max-width: 450px){
                     
                     width: 50vw;
                 }
 
             }
 
-            @media screen and (max-width: 400px){
+            @media screen and (max-width: 450px){
                 width: 50vw;
 
 
@@ -565,7 +565,7 @@ nav {
                     font-size: 20px ;
                 }
 
-                @media screen and (max-width: 400px){
+                @media screen and (max-width: 450px){
                     padding-left: 0;
                     
                 }
@@ -585,7 +585,7 @@ nav {
                 font-weight: 700;
                 font-size: 25px;
 
-                @media screen and (max-width: 400px){
+                @media screen and (max-width: 450px){
                     width: 55vw;
                     margin-bottom: 20px ;
                     
@@ -603,7 +603,7 @@ nav {
             position: relative;
             left: 40%;
 
-            @media screen and (max-width: 400px){
+            @media screen and (max-width: 450px){
                 width: 30vw;
 
                 position: relative;
@@ -624,7 +624,7 @@ footer {
     }
 
     button{
-        @media screen and (max-width: 400px){
+        @media screen and (max-width: 450px){
             width: 85vw;
         }
     }
