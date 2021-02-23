@@ -146,7 +146,7 @@ nav .media {
 
 @media screen and (max-width: 400px) {
   .landing h1 {
-    width: 80vw;
+    width: 60vw;
   }
 }
 
@@ -176,6 +176,12 @@ nav .media {
   width: 40vw;
 }
 
+@media screen and (max-width: 400px) {
+  .landing .landing-width {
+    width: 80vw;
+  }
+}
+
 .landing .img {
   width: 100vh;
 }
@@ -187,15 +193,13 @@ nav .media {
 .landing .discover {
   margin: auto;
   display: block;
-  width: 360px;
+  width: 100vw;
   margin-bottom: 4rem;
-  position: absolute;
-  left: 30%;
 }
 
 @media screen and (max-width: 360px) {
   .landing .discover {
-    width: 100px;
+    width: 80vw;
     margin-right: 0;
   }
 }
@@ -230,6 +234,7 @@ nav .media {
   margin-right: 1rem;
   margin-bottom: 1rem;
   margin-left: 1rem;
+  border-right: transparent 10px;
   padding: 30px;
   background: #fcf817;
   border-radius: 50%;

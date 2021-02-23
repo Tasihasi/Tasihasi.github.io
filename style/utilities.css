@@ -131,4 +131,10 @@
     display: none;
   }
 }
+
+@media screen and (max-width: 400px) {
+  .display-400 {
+    display: none;
+  }
+}
 /*# sourceMappingURL=utilities.css.map */

@@ -164,5 +164,11 @@ $yellow: #ffc107;
     }
 }
 
+.display-400 {
+    @media screen and (max-width: 400px){
+        display: none;
+    }
+}
+
 // Shapes
 
