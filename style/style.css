@@ -19,12 +19,12 @@ li {
 }
 
 header {
-  height: 25vh;
+  height: 20vh;
 }
 
 header .logo {
   text-decoration: none;
-  color: #A80024 !important;
+  color: #a80024 !important;
 }
 
 .nav {
@@ -340,7 +340,6 @@ nav .media {
   margin: 0 1rem 2rem 1rem;
   width: 300px;
   text-align: center;
-  border-radius: 5%;
 }
 
 @media screen and (max-width: 450px) {
@@ -364,7 +363,6 @@ nav .media {
   width: 300px;
   padding: 0.5rem;
   text-align: center;
-  border-radius: 5%;
 }
 
 .dan-works .mid .row .col .sizing {
@@ -398,7 +396,6 @@ nav .media {
   width: 300px;
   padding: 0.5rem;
   text-align: center;
-  border-radius: 5%;
 }
 
 @media screen and (max-width: 450px) {
@@ -444,12 +441,17 @@ nav .media {
 
 .work .packs {
   width: 80vw;
+  height: 800px;
 }
 
 .work .packs .col {
+  height: 35vh;
   width: 8vw;
   padding: auto;
   margin: 25px;
+  border-radius: 25%;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 .work .packs .col h3 {
@@ -458,7 +460,6 @@ nav .media {
   width: 20vw;
   text-align: center;
   font-size: 2rem;
-  border-bottom: solid 1px #f4f4f4;
 }
 
 @media screen and (max-width: 450px) {
@@ -473,27 +474,62 @@ nav .media {
   }
 }
 
-.work .packs .inner {
+.work .packs .col .inner {
   margin: 30px 10px 10px 10px;
   height: 90vh;
   position: relative;
+  display: none;
 }
 
-.work .packs .inner ul li {
+.work .packs .col .inner ul li {
   list-style: none;
   margin: 15px;
   font-size: 20px;
 }
 
 @media screen and (max-width: 450px) {
-  .work .packs .inner ul {
+  .work .packs .col .inner ul {
     padding-left: 0;
   }
 }
 
-.work .packs .inner .button {
-  position: absolute;
-  bottom: 20px;
+.work .packs .col .inner .button {
+  display: none;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.work .packs .col .inner .button #pos-sm {
+  position: relative;
+  bottom: -150px;
+}
+
+.work .packs .col .inner .button #pos-md {
+  position: relative;
+  bottom: -100px;
+}
+
+.work .packs .col .inner .button #pos-bg {
+  position: relative;
+  bottom: -30px;
+}
+
+.work .packs .col:hover {
+  height: 750px;
+  border-radius: 0;
+  -webkit-box-shadow: 10px 10px 5px #171B1F;
+          box-shadow: 10px 10px 5px #171B1F;
+}
+
+.work .packs .col:hover .inner {
+  display: block;
+  height: 250px;
+}
+
+.work .packs .col:hover .inner .button {
+  display: block;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 .work .packs .btn {
@@ -524,6 +560,87 @@ nav .media {
     position: relative;
     left: 25%;
   }
+}
+
+.introduction ul {
+  list-style: none;
+}
+
+.introduction .intro-pos {
+  width: 50vw;
+  text-align: center;
+}
+
+.introduction .exp-div {
+  width: 90vw;
+  height: 50vh;
+  margin: 1rem;
+  padding: 2rem;
+}
+
+.introduction .exp-div .exp-inner {
+  position: relative;
+  padding: 2rem;
+  width: 280px;
+  height: 280px;
+  border: solid #ffc107 2px;
+  border-radius: 50px;
+  text-align: center;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.introduction .exp-div .exp-inner:hover {
+  width: 350px;
+  height: 380px;
+  border: solid #ffc107 5px;
+}
+
+.introduction .exp-div .exp-inner:hover h5 {
+  font-size: 25px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.introduction .exp-div .exp-inner:hover h3 {
+  font-size: 35px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.introduction .exp-div .exp-inner:hover .animation-display {
+  display: block;
+  -webkit-transition-duration: 2s;
+          transition-duration: 2s;
+  -webkit-transition-delay: 2s;
+          transition-delay: 2s;
+}
+
+.introduction .exp-div .exp-inner .animation-display {
+  display: none;
+  -webkit-transition-duration: 2s;
+          transition-duration: 2s;
+  -webkit-transition-delay: 2s;
+          transition-delay: 2s;
+}
+
+@media screen and (max-width: 450px) {
+  .introduction .exp-div .exp-inner-rigth {
+    position: relative;
+    left: 0;
+  }
+}
+
+.introduction .exp-div #exp-top-right {
+  margin-left: 3rem;
+  width: 700px !important;
+  border-radius: 50px;
+}
+
+.introduction .exp-div #exp-bottom-left {
+  margin-right: 3rem;
+  width: 700px !important;
+  border-radius: 50px;
 }
 
 footer {

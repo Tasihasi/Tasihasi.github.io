@@ -32,6 +32,10 @@ $yellow: #ffc107;
     padding: 10px;
 }
 
+.bold{
+    font-weight: bold;
+}
+
 .header-input  {
     width: 100%;
     height: 50px;
@@ -159,16 +163,93 @@ $yellow: #ffc107;
 }
 
 .disappear-400 {
-    @media screen and (min-width: 450px){
+    @media screen and (min-width: 450px ){
         display: none;
     }
 }
 
 .display-400 {
-    @media screen and (max-width: 450px){
+    @media screen and (max-width: 450px ){
         display: none;
     }
 }
 
-// Shapes
+.fa-angle-double-right{
+    color: red;
+    height: 10px;
+    width: 10px;
+}
+// Animation
 
+.animation-delay-2s{
+    animation-delay: 4s;
+}
+
+.transition-1{
+    transition: 1s;
+}
+
+.hvr-box-shadow-sm{
+    transition: 2s;
+    &:hover{
+            box-shadow: 20px 20px 6px $color-secondary-1-0;
+
+    }
+}
+.hvr-box-shadow-bg{
+    transition: 2s;
+    &:hover{
+            box-shadow: 8px 8px 4px $color-secondary-1-0;
+
+    }
+}
+
+.about-animation{
+    animation: bounce 1s linear;
+    transition: 1s;
+    &:hover{
+        animation: 1,5s linear;
+        box-shadow: 7px 7px 3px #444;
+        padding: 10px;
+
+        border-radius: 20px;
+    }
+}
+
+
+@keyframes bounce {
+    20%, 50%, 80%,to {
+        transform: translateY(0);
+    }
+    40%{
+        transform: translateY(-40px);
+    }
+
+    70%{
+        transform: translateY(-25px);
+    }
+    90%{
+        transform: translateY(-15px);
+    }
+}
+
+.animation-pulse{
+    animation: pulse 3s linear infinite;
+}
+
+@keyframes pulse{
+    0% {
+        box-shadow: 0 0 0 $color-secondary-1-2;
+    }
+    
+    25% {
+         box-shadow: 5px 5px 50px  3px $color-secondary-1-2;
+    }
+    50% {
+         box-shadow: 10px 10px 10px 6px $color-secondary-1-2;
+    }
+    75% {
+         box-shadow: 5px 5px 50px 3px $color-secondary-1-2;
+    }
+    
+}
