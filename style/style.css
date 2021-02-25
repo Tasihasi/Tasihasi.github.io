@@ -338,8 +338,28 @@ nav .media {
 
 .dan-works .upper .row .col {
   margin: 0 1rem 2rem 1rem;
+  padding: 20px;
+  height: 110px;
   width: 300px;
+  -webkit-transition: 1s;
+  transition: 1s;
   text-align: center;
+}
+
+.dan-works .upper .row .col .disappear-animation {
+  display: none;
+}
+
+.dan-works .upper .row .col:hover {
+  height: 230px;
+}
+
+.dan-works .upper .row .col:hover .disappear-animation {
+  display: inline-block;
+  margin-top: 10px;
+  padding-top: 10px;
+  font-size: 20px;
+  border-top: solid 2px #c0c0c0;
 }
 
 @media screen and (max-width: 450px) {
@@ -361,7 +381,10 @@ nav .media {
 .dan-works .mid .row .col {
   margin: 0 1rem 2rem 1rem;
   width: 300px;
-  padding: 0.5rem;
+  padding: 20px;
+  height: 110px;
+  -webkit-transition: 1s;
+  transition: 1s;
   text-align: center;
 }
 
@@ -383,6 +406,24 @@ nav .media {
   }
 }
 
+.dan-works .mid .row .disappear-animation {
+  display: none;
+}
+
+.dan-works .mid .row:hover {
+  height: 230px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.dan-works .mid .row:hover .disappear-animation {
+  display: inline-block;
+  margin-top: 10px;
+  padding-top: 10px;
+  font-size: 20px;
+  border-top: solid 2px #c0c0c0;
+}
+
 .dan-works .low {
   margin: 5rem;
 }
@@ -394,8 +435,11 @@ nav .media {
 .dan-works .low .row .col {
   margin: 0 1rem 2rem 1rem;
   width: 300px;
-  padding: 0.5rem;
+  padding: 20px;
+  height: 110px;
   text-align: center;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 @media screen and (max-width: 450px) {
@@ -410,6 +454,22 @@ nav .media {
     position: relative;
     left: -10%;
   }
+}
+
+.dan-works .low .row .disappear-animation {
+  display: none;
+}
+
+.dan-works .low .row:hover {
+  height: 230px;
+}
+
+.dan-works .low .row:hover .disappear-animation {
+  display: inline-block;
+  margin-top: 10px;
+  padding-top: 10px;
+  font-size: 20px;
+  border-top: solid 2px #c0c0c0;
 }
 
 .work h2 {
@@ -501,21 +561,21 @@ nav .media {
 
 .work .packs .col .inner .button #pos-sm {
   position: relative;
-  bottom: -150px;
+  bottom: -50px;
 }
 
 .work .packs .col .inner .button #pos-md {
   position: relative;
-  bottom: -100px;
+  bottom: -0px;
 }
 
 .work .packs .col .inner .button #pos-bg {
   position: relative;
-  bottom: -30px;
+  bottom: 70px;
 }
 
 .work .packs .col:hover {
-  height: 750px;
+  height: 650px;
   border-radius: 0;
   -webkit-box-shadow: 10px 10px 5px #171B1F;
           box-shadow: 10px 10px 5px #171B1F;
@@ -530,6 +590,8 @@ nav .media {
   display: block;
   -webkit-transition: 1s;
   transition: 1s;
+  -webkit-transition-delay: 1s;
+          transition-delay: 1s;
 }
 
 .work .packs .btn {
@@ -633,14 +695,43 @@ nav .media {
 
 .introduction .exp-div #exp-top-right {
   margin-left: 3rem;
-  width: 700px !important;
+  width: 700px;
   border-radius: 50px;
 }
 
 .introduction .exp-div #exp-bottom-left {
   margin-right: 3rem;
-  width: 700px !important;
+  width: 700px;
   border-radius: 50px;
+}
+
+@media screen and (max-width: 450px) {
+  .introduction .exp-div * {
+    position: relative;
+    margin: 1rem;
+  }
+  .introduction .exp-div .exp-inner {
+    width: 350px !important;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .introduction .exp-div .exp-inner:hover {
+    margin-bottom: 2rem;
+    height: 100%;
+    width: 100%;
+  }
+  .introduction .exp-div .exp-inner:hover h5 {
+    font-size: 100%;
+  }
+  .introduction .exp-div .exp-inner:hover h3 {
+    font-size: 100%;
+  }
+  .introduction .exp-div .exp-inner:hover .animation-display {
+    display: none;
+  }
+  .introduction .exp-div #exp-top-right {
+    margin-left: 0;
+  }
 }
 
 footer {

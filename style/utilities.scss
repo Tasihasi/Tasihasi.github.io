@@ -132,6 +132,7 @@ $yellow: #ffc107;
 
 .width-100{
     width: 100px    ;
+    text-align: center;
 }
 .width-100{
     width: 100px;
@@ -222,14 +223,14 @@ $yellow: #ffc107;
         transform: translateY(0);
     }
     40%{
-        transform: translateY(-40px);
+        transform: translateY(-30px);
     }
 
     70%{
-        transform: translateY(-25px);
+        transform: translateY(-15px);
     }
     90%{
-        transform: translateY(-15px);
+        transform: translateY(-5px);
     }
 }
 

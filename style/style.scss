@@ -412,11 +412,28 @@ nav {
             .col{
             //margin: 2rem 4rem;
             margin: 0 1rem 2rem 1rem;
+            padding: 20px;
+            height: 110px;
             width: 300px ;
+            transition: 1s;
+
             
             text-align: center;
             
-            
+            .disappear-animation{
+                display: none;
+            }
+            &:hover{
+                height: 230px;
+                .disappear-animation{
+                    display: inline-block;
+                    margin-top:10px ;
+                    padding-top: 10px;
+                    font-size: 20px;
+
+                    border-top: solid 2px $grey-2;
+                }
+            }
             
             }
 
@@ -426,6 +443,7 @@ nav {
                 position: relative;
                 left: -10%;
             }
+            
         }
         
 
@@ -439,7 +457,10 @@ nav {
                        // margin: 3rem 4rem;
                         margin: 0 1rem 2rem 1rem;
                         width: 300px;
-                        padding: 0.5rem;
+                        padding: 20px;
+                        height: 110px;
+                        transition: 1s;
+                        
                         text-align: center;
 
                         
@@ -461,6 +482,21 @@ nav {
                             position: relative;
                             left: -10%;
                         }
+                        .disappear-animation{
+                            display: none;
+                        }
+                        &:hover{
+                            height: 230px;
+                            transition: 1s;
+                            .disappear-animation{
+                                display: inline-block;
+                                margin-top:10px ;
+                                padding-top: 10px;
+                                font-size: 20px;
+            
+                                border-top: solid 2px $grey-2;
+                            }
+                        }
             
         }
 
@@ -475,8 +511,10 @@ nav {
                        // margin: 3rem 4rem;
                        margin: 0 1rem 2rem 1rem;
                         width: 300px;
-                        padding: 0.5rem;
+                        padding: 20px;
+                        height: 110px;
                         text-align: center;
+                        transition: 1s;
 
                         
                         
@@ -492,6 +530,20 @@ nav {
                         position: relative;
                         left: -10%;
                     }
+            .disappear-animation{
+                display: none;
+            }
+            &:hover{
+                height: 230px;
+                .disappear-animation{
+                    display: inline-block;
+                    margin-top:10px ;
+                    padding-top: 10px;
+                    font-size: 20px;
+
+                    border-top: solid 2px $grey-2;
+                }
+            }
         }
         
 
@@ -602,22 +654,22 @@ nav {
                         transition: 2s;
                 #pos-sm{
                     position: relative;
-                    bottom: -150px;
+                    bottom: -50px;
                 }
                 #pos-md{
                     position: relative;
-                    bottom: -100px;
+                    bottom: -0px;
                 }
                 #pos-bg{
                     position: relative;
-                    bottom: -30px;
+                    bottom: 70px;
                 }
             }
             
         }
 
         &:hover{
-            height: 750px;
+            height: 650px;
             border-radius: 0;
 
             box-shadow: 10px 10px 5px #171B1F;
@@ -627,6 +679,8 @@ nav {
                 .button{
                     display: block;
                     transition: 1s;
+                    transition-delay: 1s;
+                    // box-shadow: 3px 3px 2px $color-primary-0 ;
 
                     
                 }
@@ -746,13 +800,53 @@ nav {
         }
         #exp-top-right{
             margin-left: 3rem;
-            width: 700px !important;
+            width: 700px ;
             border-radius: 50px;
         }
         #exp-bottom-left{
             margin-right: 3rem;
-            width: 700px !important;
+            width: 700px ;
             border-radius: 50px;
+        }
+
+        @media screen and (max-width: 450px){
+            *{
+                position: relative;
+                margin: 1rem;
+
+                
+            }
+            .exp-inner {
+                width: 350px!important;
+
+                margin-left: 0;
+                margin-right: 0;
+
+                &:hover{
+                    margin-bottom: 2rem;
+
+                    height: 100%;
+                    width: 100%;
+
+                    h5{
+                        font-size: 100%;
+                    }
+
+                    h3{
+                        font-size: 100%;
+                    }
+
+                    .animation-display{
+                        display: none;
+                    }
+
+                }
+            }
+
+            #exp-top-right{
+                margin-left:0 ;
+            }
+            
         }
     }
 }
