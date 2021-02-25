@@ -399,27 +399,27 @@ nav .media {
 }
 
 @media screen and (max-width: 450px) {
-  .dan-works .mid .row {
+  .dan-works .mid .row .col {
     width: 60vw;
     position: relative;
     left: -10%;
   }
 }
 
-.dan-works .mid .row .disappear-animation {
+.dan-works .mid .row .col .disappear-animation {
   display: none;
 }
 
-.dan-works .mid .row:hover {
+.dan-works .mid .row .col:hover {
   height: 230px;
   -webkit-transition: 1s;
   transition: 1s;
 }
 
-.dan-works .mid .row:hover .disappear-animation {
+.dan-works .mid .row .col:hover .disappear-animation {
   display: inline-block;
-  margin-top: 10px;
-  padding-top: 10px;
+  margin-top: 30px;
+  padding-top: 20px;
   font-size: 20px;
   border-top: solid 2px #c0c0c0;
 }
@@ -449,22 +449,22 @@ nav .media {
 }
 
 @media screen and (max-width: 450px) {
-  .dan-works .low .row {
+  .dan-works .low .row .col {
     width: 60vw;
     position: relative;
     left: -10%;
   }
 }
 
-.dan-works .low .row .disappear-animation {
+.dan-works .low .row .col .disappear-animation {
   display: none;
 }
 
-.dan-works .low .row:hover {
+.dan-works .low .row .col:hover {
   height: 230px;
 }
 
-.dan-works .low .row:hover .disappear-animation {
+.dan-works .low .row .col:hover .disappear-animation {
   display: inline-block;
   margin-top: 10px;
   padding-top: 10px;
